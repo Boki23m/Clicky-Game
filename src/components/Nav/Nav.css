@@ -31,6 +31,6 @@ ul {
 
 @media only screen and (max-width: 750px) {
   #cur-sco, #top-sco {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
