@@ -6,4 +6,4 @@
 
 #### Built with React. Check it out [here](https://boki23m.github.io/Clicky-Game/).
 
-![screenshot](public/screenshot.png)
+![screenshot](public/screenshot.jpg)
