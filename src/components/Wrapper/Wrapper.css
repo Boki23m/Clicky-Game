@@ -1,6 +1,6 @@
 .wrapper {
   background: rgb(175, 175, 175);
-  background-image: url('https://images7.alphacoders.com/400/thumb-1920-400623.jpg');
+  background-image: url('https://images8.alphacoders.com/467/467686.jpg');
   height: 100%;
   display: flex;
   flex-flow: row wrap;
@@ -8,4 +8,7 @@
   align-content: flex-start;
   overflow: auto;
   padding-bottom: 50px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }

@@ -42,7 +42,7 @@ class App extends Component {
       currentScore: newScore,
       rightWrong: ""
     });
-    if (newScore >= this.state.topScore) {
+    if (newScore > this.state.topScore) {
       this.setState({ topScore: newScore });
     }
     else if (newScore === 12) {
@@ -55,7 +55,7 @@ class App extends Component {
     this.setState({
       currentScore: 0,
       topScore: this.state.topScore,
-      rightWrong: "Glaven!",
+      rightWrong: "D'oh! HA-HA!",
       clicked: []
     });
     this.handleShuffle();
@@ -77,8 +77,7 @@ class App extends Component {
         />
 
         <Title>
-          Try to click on each character, but don't hit any duplicates, or
-          we'll release the hounds!!!
+          Try to click on each character, but don't hit any duplicates!
         </Title>
 
         <Container>
